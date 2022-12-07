@@ -1,12 +1,12 @@
 const weapons = {
     "hand-rock-o": {
-        wins: 'scissor'
+        wins: 'hand-scissors-o'
     },
     "hand-paper-o": {
-        wins: 'rock'
+        wins: 'hand-rock-o'
     },
     "hand-scissors-o": {
-        wins: 'paper'
+        wins: 'hand-paper-o'
     }
 },
 

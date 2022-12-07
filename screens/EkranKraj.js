@@ -29,8 +29,9 @@ const EkranKraj = (props) => {
                 BrPobjeda.current += 1;
                 break;
             case izborPlayer:
-                setRezultat("NEODLUČENO~");
+                setRezultat("TIE~");
                 BrNeodluceno.current += 1;
+                break;
             default:
                 setRezultat("PORAZ..");
                 BrPorazi.current += 1;
@@ -95,7 +96,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
     },
     textRezultat: {
-        fontSize: 69,
+        fontSize: 65,
     },
     pregled: {
         flexDirection: 'row',
